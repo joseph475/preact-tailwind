@@ -13,6 +13,7 @@ class Home extends Component {
             loading: true,
             error: null,
             searchResults: [],
+            json_api: '././json_data/products.json'
         };
     }
     handleSearch = (event) => {
@@ -22,7 +23,7 @@ class Home extends Component {
     };
 
     componentDidMount() {
-        fetch('././json_data/products.json')
+        fetch(this.state.json_api)
             .then(response => response.json())
             .then(data => {
                 this.setState({
