@@ -2,6 +2,7 @@
 import { h, Component } from 'preact';
 import style from './style.css';
 import Card from '../../components/cards';
+import Search from '../../components/search';
 
 
 class Home extends Component {
@@ -10,9 +11,15 @@ class Home extends Component {
         this.state = {
             data: null,
             loading: true,
-            error: null
+            error: null,
+            searchResults: [],
         };
     }
+    handleSearch = (event) => {
+        // console.log('Search value:', searchValue);
+        const searchValue = event.target.value;
+        this.setState({ searchQuery: searchValue });
+    };
 
     componentDidMount() {
         fetch('././json_data/products.json')
@@ -20,6 +27,7 @@ class Home extends Component {
             .then(data => {
                 this.setState({
                     data,
+                    searchResults: data,
                     loading: false
                 });
             })
@@ -30,10 +38,14 @@ class Home extends Component {
                 });
             });
     }
+    
+    setSearchResults = (results) => {
+        this.setState({ searchResults: results });
+    };
 
     render() {
-        const { data, loading, error } = this.state;
-
+        const { data, loading, error, searchResults } = this.state;
+  
         if (loading) {
             return <div>Loading...</div>;
         }
@@ -43,12 +55,13 @@ class Home extends Component {
         }
 
         return (
+            
             <div>
-                {/* Render your data */}
+                <Search data={this.state.data} setSearchResults={this.setSearchResults} />
                 {data && (
                     <div class="container mx-auto">
                         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                            {data.map(item => (
+                            {searchResults.map(item => (
                                 <Card
                                    data={item}
                                 />
