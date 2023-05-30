@@ -11,11 +11,12 @@ const App = () => (
 	<div id="app">
 		<Header />
 		<main>
-			<Router>
-				<Home path="/" />
-				<Profile path="/profile/" user="me" />
-				<Profile path="/profile/:user" />
-			</Router>
+            <div class="container mx-auto pt-20">
+                <Router>
+                    <Home path="/" />
+                    <Profile path="/profile/" user="me" />
+                </Router>
+            </div>
 		</main>
 	</div>
 );

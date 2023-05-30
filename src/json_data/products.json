@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "name": "ADILETTE 22 SLIDES",
+      "name": "Product 1",
       "description": "This is the first product.",
       "price": 19.99,
       "category": "Electronics",
@@ -9,7 +9,7 @@
     },
     {
       "id": 2,
-      "name": "Nike Air Max",
+      "name": "Product 2",
       "description": "This is the second product.",
       "price": 29.99,
       "category": "Home & Kitchen",
@@ -17,7 +17,7 @@
     },
     {
       "id": 3,
-      "name": "Nike Air Jordan I",
+      "name": "Product 3",
       "description": "This is the third product.",
       "price": 9.99,
       "category": "Home & Kitchen",
