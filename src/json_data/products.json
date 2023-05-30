@@ -1,0 +1,82 @@
+[
+    {
+      "id": 1,
+      "name": "ADILETTE 22 SLIDES",
+      "description": "This is the first product.",
+      "price": 19.99,
+      "category": "Electronics",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0f8ccddbc11845d5bf81afc700fc6d35_9366/Adilette_22_Slides_Grey_HP6522_HM1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Nike Air Max",
+      "description": "This is the second product.",
+      "price": 29.99,
+      "category": "Home & Kitchen",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0f8ccddbc11845d5bf81afc700fc6d35_9366/Adilette_22_Slides_Grey_HP6522_HM1.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Nike Air Jordan I",
+      "description": "This is the third product.",
+      "price": 9.99,
+      "category": "Home & Kitchen",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0f8ccddbc11845d5bf81afc700fc6d35_9366/Adilette_22_Slides_Grey_HP6522_HM1.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Product 4",
+      "description": "This is the fourth product.",
+      "price": 49.99,
+      "category": "Home & Kitchen",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0f8ccddbc11845d5bf81afc700fc6d35_9366/Adilette_22_Slides_Grey_HP6522_HM1.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Product 5",
+      "description": "This is the fifth product.",
+      "price": 39.99,
+      "category": "Home & Kitchen",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0f8ccddbc11845d5bf81afc700fc6d35_9366/Adilette_22_Slides_Grey_HP6522_HM1.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Product 6",
+      "description": "This is the sixth product.",
+      "price": 14.99,
+      "category": "Home & Kitchen",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0f8ccddbc11845d5bf81afc700fc6d35_9366/Adilette_22_Slides_Grey_HP6522_HM1.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Product 7",
+      "description": "This is the seventh product.",
+      "price": 99.99,
+      "category": "Home & Kitchen",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0f8ccddbc11845d5bf81afc700fc6d35_9366/Adilette_22_Slides_Grey_HP6522_HM1.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Product 8",
+      "description": "This is the eighth product.",
+      "price": 79.99,
+      "category": "Home & Kitchen",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0f8ccddbc11845d5bf81afc700fc6d35_9366/Adilette_22_Slides_Grey_HP6522_HM1.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Product 9",
+      "description": "This is the ninth product.",
+      "price": 24.99,
+      "category": "Home & Kitchen",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0f8ccddbc11845d5bf81afc700fc6d35_9366/Adilette_22_Slides_Grey_HP6522_HM1.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Product 10",
+      "description": "This is the tenth product.",
+      "price": 59.99,
+      "category": "Home & Kitchen",
+      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0f8ccddbc11845d5bf81afc700fc6d35_9366/Adilette_22_Slides_Grey_HP6522_HM1.jpg"
+    }
+  ]
